@@ -1,0 +1,25 @@
+@tailwind base;
+
+a {
+    text-decoration: underline;
+}
+
+.ptsans {
+    font-family: PTSans;
+}
+
+.background {
+    background-image: url("./img/bg-overlay.png");
+    background-position: bottom 0px right 0px;
+    background-repeat: no-repeat;
+    background-size: auto 94%;
+}
+
+.gradient-dark-green {
+    background: rgb(8, 8, 32);
+    background: linear-gradient(120deg, rgba(8, 8, 32, 1) 0%, rgba(9, 11, 35, 1) 50%, rgba(18, 65, 66, 1) 100%);
+}
+
+@tailwind components;
+
+@tailwind utilities;
