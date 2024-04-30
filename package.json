@@ -1,8 +1,8 @@
 {
   "scripts": {
-    "start": "live-server src/public",
-    "build": "npx tailwindcss ./src/css/style.css -o ./src/public/style.css",
-    "build:dev": "npx tailwindcss -i ./src/css/style.css -o ./src/public/style.css --watch"
+    "start": "live-server docs",
+    "build": "npx tailwindcss ./src/css/style.css -o ./docs/style.css",
+    "build:dev": "npx tailwindcss -i ./src/css/style.css -o ./docs/style.css --watch"
   },
   "devDependencies": {
     "live-server": "^1.2.2",

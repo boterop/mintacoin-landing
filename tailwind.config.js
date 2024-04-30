@@ -1,5 +1,5 @@
 module.exports = {
-  content: ["./src/public/*.{html,js}"],
+  content: ["./docs/*.{html,js}"],
   theme: {
     fontFamily: {
       PTSans: ['PT Sans', 'sans-serif'],

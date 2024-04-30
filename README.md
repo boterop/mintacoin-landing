@@ -14,9 +14,9 @@ also you can build a dev css to reload the page when you make changes in css fil
 ```npm run build:dev```
 
 ## Programming
-You can modify all files in *./src/public/* but the css file tho.
+You can modify all files in *./docs/* except the css file.
 
-to modify css you have to do it in *./src/css/style.css*
+to modify css edit *./src/css/style.css*
 
 ## Production
-After build your css, you can find the page in *./src/public* copy an paste the folder where you need
+After build your css, your page will be located in *./docs* copy an paste the folder where you need.
